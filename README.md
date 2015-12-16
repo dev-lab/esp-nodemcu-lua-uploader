@@ -2,7 +2,7 @@
 Scripts for fast uploading many files at once into NodeMCU ESP modules.
 
 _**Note:** The original Python script for fast file uploading was written and shared by **Markus Gritsch** in article [**Lightning-Fast File Uploads**](http://www.esp8266.com/viewtopic.php?f=22&t=1026&start=16) on [ESP8266 Community Forum](http://www.esp8266.com).
-The original scripts along with some usage instructions are stored for convenience at: dev-lab/esp-nodemcu-lua-uploader-org@24855a5850e150d7336d0948877724f749ab10be ._
+The original scripts along with some usage instructions are stored for convenience at: https://github.com/dev-lab/esp-nodemcu-lua-uploader-org ._
 
 ## Installation
 
@@ -15,7 +15,7 @@ The original scripts along with some usage instructions are stored for convenien
 
 ## Usage
 
-* Configure your ESP module to communicate on 115200 baud rate as described in dev-lab/esp-nodemcu-lua-uploader-org@24855a5850e150d7336d0948877724f749ab10be , or change the `baud_rate` variable in [uploader1.py](uploader1.py) to baud rate supported by your ESP module.
+* Configure your ESP module to communicate on 115200 baud rate as described in https://github.com/dev-lab/esp-nodemcu-lua-uploader-org , or change the `baud_rate` variable in [uploader1.py](uploader1.py) to baud rate supported by your ESP module.
 * Pass to [`uploader.bat`](uploader.bat) the directory with files to upload to NodeMCU ESP module and watch the process in console window. In case of error you will see the corresponding message.
 
 
